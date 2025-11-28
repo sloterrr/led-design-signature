@@ -27,8 +27,8 @@ const signatureHTML = `<!DOCTYPE html>
     <tr>
       <!-- KOLUMNA 1: Logo Box -->
       <td valign="top" style="padding-right: 25px;">
-        <!-- Logo box z borderem -->
-        <table cellpadding="0" cellspacing="0" border="0" style="border: 3px solid #52B5EB; border-radius: 20px; width: 240px; height: 240px; border-collapse: separate;">
+        <!-- Logo box bez bordera -->
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 240px; height: 240px; border-collapse: separate;">
           <tr>
             <td align="center" valign="middle" style="padding: 20px;">
               <img src="${githubUrls.logo}"
