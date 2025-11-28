@@ -28,19 +28,19 @@ const signatureHTML = `<!DOCTYPE html>
       <!-- KOLUMNA 1: Logo Box -->
       <td valign="top" style="padding-right: 25px;">
         <!-- Logo box bez bordera -->
-        <table cellpadding="0" cellspacing="0" border="0" style="width: 300px; height: 300px; border-collapse: separate;">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 200px; height: 200px; border-collapse: separate;">
           <tr>
-            <td align="center" valign="middle" style="padding: 20px;">
+            <td align="center" valign="middle" style="padding: 15px;">
               <img src="${githubUrls.logo}"
                    alt="LED Design Logo"
-                   width="250"
-                   style="display: block; max-width: 250px; height: auto;"/>
+                   width="170"
+                   style="display: block; max-width: 170px; height: auto;"/>
             </td>
           </tr>
         </table>
 
         <!-- Tekst pod logo -->
-        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 300px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 200px;">
           <tr>
             <td align="center" style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 14px; color: #52B5EB; font-weight: 400; line-height: 1.4;">
               www.led.design
@@ -54,12 +54,12 @@ const signatureHTML = `<!DOCTYPE html>
         <!-- Zdjęcie Artura -->
         <img src="${githubUrls.artur}"
              alt="Artur Oliński"
-             width="300"
-             height="300"
+             width="200"
+             height="200"
              style="display: block; border-radius: 20px;"/>
 
         <!-- Tagline pod zdjęciem -->
-        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 300px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 200px;">
           <tr>
             <td align="center" style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 11px; font-style: italic; font-weight: 500; color: #52B5EB; line-height: 1.4;">
               Naszą pasją jest światło!
