@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40px" height="40px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 16900 16900"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#52B5EB}
+    .fil1 {fill:#FEFFFF}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2768543024256">
+   <circle class="fil0" cx="8500" cy="8500" r="8500"/>
+   <path class="fil1" d="M8200 4000c-2400,200 -4300,2200 -4200,4700 200,2400 2200,4300 4700,4200 2400,-200 4300,-2200 4200,-4700 -200,-2400 -2200,-4300 -4700,-4200zm-1000 4100l2500 0c0,-700 -100,-1400 -300,-2000 -900,-2800 -2100,-400 -2200,2000zm2500 800l-2500 -100c0,700 100,1400 300,2000 900,2800 2100,400 2200,-1900zm-4900 -800l1600 0c0,-900 100,-1600 400,-2400 100,-200 200,-400 300,-600 -1100,400 -2100,1500 -2300,3000zm5000 3700c1100,-400 2100,-1500 2300,-3000l-1600 0c0,800 -100,1700 -400,2400 -100,200 -200,400 -300,600zm700 -3700l1600 0c-200,-1500 -1200,-2600 -2300,-3000 200,600 300,500 500,1300 100,500 200,1100 200,1700zm-3400 3700c-200,-500 -300,-600 -500,-1300 -100,-500 -200,-1100 -200,-1700l-1600 0c200,1500 1200,2600 2300,3000z"/>
+  </g>
+ </g>
+</svg>

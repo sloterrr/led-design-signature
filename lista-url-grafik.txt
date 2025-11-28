@@ -1,0 +1,28 @@
+# LISTA URLi GRAFIK
+
+## 1. Zdjęcie Artura (ImgBB)
+URL: https://i.ibb.co/Z6gjGghC/artur-olinski.webp
+Typ: WebP
+Rozmiar: 302x303px
+
+## 2. Logo (Data URI)
+Typ: SVG (embedded)
+Długość: 19370 znaków
+
+## 3. Ikona telefonu (Data URI)
+Typ: SVG (embedded)
+Długość: 1966 znaków
+
+## 4. Ikona email (Data URI)
+Typ: SVG (embedded)
+Długość: 1622 znaków
+
+## 5. Ikona WWW (Data URI)
+Typ: SVG (embedded)
+Długość: 2170 znaków
+
+---
+
+**Metoda:** Hybrydowa
+- Zdjęcie hostowane na ImgBB (duży plik, 50KB)
+- SVG jako Data URI (małe pliki, 1-20KB)

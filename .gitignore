@@ -1,0 +1,10 @@
+node_modules/
+*_base64.txt
+libwebp*/
+*.zip
+data-uris.json
+data-uris.txt
+convert-svg.js
+convert-svg-to-webp.js
+create-data-uris.js
+generate-signature.js
