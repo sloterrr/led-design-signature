@@ -28,19 +28,19 @@ const signatureHTML = `<!DOCTYPE html>
       <!-- KOLUMNA 1: Logo Box -->
       <td valign="top" style="padding-right: 25px;">
         <!-- Logo box bez bordera -->
-        <table cellpadding="0" cellspacing="0" border="0" style="width: 200px; height: 200px; border-collapse: separate;">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 150px; height: 150px; border-collapse: separate;">
           <tr>
-            <td align="center" valign="middle" style="padding: 15px;">
+            <td align="center" valign="middle" style="padding: 10px;">
               <img src="${githubUrls.logo}"
                    alt="LED Design Logo"
-                   width="170"
-                   style="display: block; max-width: 170px; height: auto;"/>
+                   width="120"
+                   style="display: block; max-width: 120px; height: auto;"/>
             </td>
           </tr>
         </table>
 
         <!-- Tekst pod logo -->
-        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 200px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 150px;">
           <tr>
             <td align="center" style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 14px; color: #52B5EB; font-weight: 400; line-height: 1.4;">
               www.led.design
@@ -54,12 +54,12 @@ const signatureHTML = `<!DOCTYPE html>
         <!-- Zdjęcie Artura -->
         <img src="${githubUrls.artur}"
              alt="Artur Oliński"
-             width="200"
-             height="200"
+             width="150"
+             height="150"
              style="display: block; border-radius: 20px;"/>
 
         <!-- Tagline pod zdjęciem -->
-        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 200px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin-top: 15px; width: 150px;">
           <tr>
             <td align="center" style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 11px; font-style: italic; font-weight: 500; color: #52B5EB; line-height: 1.4;">
               Naszą pasją jest światło!
@@ -93,13 +93,13 @@ const signatureHTML = `<!DOCTYPE html>
                   <td valign="middle" style="padding-right: 8px;">
                     <img src="${githubUrls.mobile}"
                          alt="Phone"
-                         width="20"
-                         height="20"
+                         width="30"
+                         height="30"
                          style="display: block;"/>
                   </td>
                   <td valign="middle">
                     <a href="tel:+48606108500"
-                       style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 10px; color: #52B5EB; text-decoration: none; line-height: 1.3;">
+                       style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 15px; color: #52B5EB; text-decoration: none; line-height: 1.3;">
                       +48 606 108 500
                     </a>
                   </td>
@@ -116,13 +116,13 @@ const signatureHTML = `<!DOCTYPE html>
                   <td valign="middle" style="padding-right: 8px;">
                     <img src="${githubUrls.email}"
                          alt="Email"
-                         width="20"
-                         height="20"
+                         width="30"
+                         height="30"
                          style="display: block;"/>
                   </td>
                   <td valign="middle">
                     <a href="mailto:artur.olinski@leddesign.pl"
-                       style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 10px; color: #52B5EB; text-decoration: none; line-height: 1.3;">
+                       style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 15px; color: #52B5EB; text-decoration: none; line-height: 1.3;">
                       artur.olinski@leddesign.pl
                     </a>
                   </td>
@@ -139,13 +139,13 @@ const signatureHTML = `<!DOCTYPE html>
                   <td valign="middle" style="padding-right: 8px;">
                     <img src="${githubUrls.www}"
                          alt="Website"
-                         width="20"
-                         height="20"
+                         width="30"
+                         height="30"
                          style="display: block;"/>
                   </td>
                   <td valign="middle">
                     <a href="https://www.leddesign.pl"
-                       style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 10px; color: #52B5EB; text-decoration: none; line-height: 1.3;">
+                       style="font-family: 'Poppins', Arial, Helvetica, sans-serif; font-size: 15px; color: #52B5EB; text-decoration: none; line-height: 1.3;">
                       www.leddesign.pl
                     </a>
                   </td>
