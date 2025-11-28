@@ -30,11 +30,12 @@ const signatureHTML = `<!DOCTYPE html>
         <!-- Logo box bez bordera -->
         <table cellpadding="0" cellspacing="0" border="0" style="width: 150px; height: 150px; border-collapse: separate;">
           <tr>
-            <td align="center" valign="middle" style="padding: 10px;">
+            <td align="center" valign="middle">
               <img src="${githubUrls.logo}"
                    alt="LED Design Logo"
-                   width="120"
-                   style="display: block; max-width: 120px; height: auto;"/>
+                   width="150"
+                   height="150"
+                   style="display: block;"/>
             </td>
           </tr>
         </table>
