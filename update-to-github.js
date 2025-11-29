@@ -3,11 +3,11 @@ const fs = require('fs');
 // GitHub Raw URLs
 const githubBaseUrl = 'https://raw.githubusercontent.com/sloterrr/led-design-signature/main/';
 const githubUrls = {
-  logo: githubBaseUrl + 'logo.svg',
+  logo: githubBaseUrl + 'logo.webp',
   artur: githubBaseUrl + 'artur.webp',
-  mobile: githubBaseUrl + 'mobile.svg',
-  email: githubBaseUrl + 'email.svg',
-  www: githubBaseUrl + 'www.svg'
+  mobile: githubBaseUrl + 'mobile.webp',
+  email: githubBaseUrl + 'email.webp',
+  www: githubBaseUrl + 'www.webp'
 };
 
 // Wczytaj Data URIs
@@ -189,23 +189,23 @@ Rozmiar: 302x303px
 
 ## 2. Logo (GitHub)
 URL: ${githubUrls.logo}
-Typ: SVG
-Rozmiar oryginalny: 145x187px
+Typ: WebP
+Rozmiar: 150x150px
 
 ## 3. Ikona telefonu (GitHub)
 URL: ${githubUrls.mobile}
-Typ: SVG
-Rozmiar: 40x40px
+Typ: WebP
+Rozmiar: 30x30px
 
 ## 4. Ikona email (GitHub)
 URL: ${githubUrls.email}
-Typ: SVG
-Rozmiar: 40x40px
+Typ: WebP
+Rozmiar: 30x30px
 
 ## 5. Ikona WWW (GitHub)
 URL: ${githubUrls.www}
-Typ: SVG
-Rozmiar: 40x40px
+Typ: WebP
+Rozmiar: 30x30px
 
 ---
 
@@ -221,6 +221,11 @@ Rozmiar: 40x40px
 **Poprzednia metoda (Data URI + ImgBB):**
 - Zdjęcie ImgBB: https://i.ibb.co/Z6gjGghC/artur-olinski.webp (nadal działa)
 - SVG: Data URI embedded (większe pliki)
+
+**Aktualizacja:**
+- Wszystkie grafiki (logo + ikony) przekonwertowane z SVG na WebP
+- Lepsza kompatybilność z klientami email
+- Mniejszy rozmiar plików
 `;
 
 fs.writeFileSync('lista-url-grafik-github.txt', urlList);

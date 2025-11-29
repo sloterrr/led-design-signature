@@ -6,24 +6,24 @@ Typ: WebP
 Rozmiar: 302x303px
 
 ## 2. Logo (GitHub)
-URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/logo.svg
-Typ: SVG
-Rozmiar oryginalny: 145x187px
+URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/logo.webp
+Typ: WebP
+Rozmiar: 150x150px
 
 ## 3. Ikona telefonu (GitHub)
-URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/mobile.svg
-Typ: SVG
-Rozmiar: 40x40px
+URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/mobile.webp
+Typ: WebP
+Rozmiar: 30x30px
 
 ## 4. Ikona email (GitHub)
-URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/email.svg
-Typ: SVG
-Rozmiar: 40x40px
+URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/email.webp
+Typ: WebP
+Rozmiar: 30x30px
 
 ## 5. Ikona WWW (GitHub)
-URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/www.svg
-Typ: SVG
-Rozmiar: 40x40px
+URL: https://raw.githubusercontent.com/sloterrr/led-design-signature/main/www.webp
+Typ: WebP
+Rozmiar: 30x30px
 
 ---
 
@@ -39,3 +39,8 @@ Rozmiar: 40x40px
 **Poprzednia metoda (Data URI + ImgBB):**
 - Zdjęcie ImgBB: https://i.ibb.co/Z6gjGghC/artur-olinski.webp (nadal działa)
 - SVG: Data URI embedded (większe pliki)
+
+**Aktualizacja:**
+- Wszystkie grafiki (logo + ikony) przekonwertowane z SVG na WebP
+- Lepsza kompatybilność z klientami email
+- Mniejszy rozmiar plików
