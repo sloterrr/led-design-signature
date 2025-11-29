@@ -185,27 +185,32 @@ const urlList = `# LISTA URLi GRAFIK - GITHUB HOSTING
 ## 1. Zdjęcie Artura (GitHub)
 URL: ${githubUrls.artur}
 Typ: WebP
-Rozmiar: 302x303px
+Rozmiar fizyczny: 302x303px
+Wyświetlany jako: 150x150px
 
 ## 2. Logo (GitHub)
 URL: ${githubUrls.logo}
 Typ: WebP
-Rozmiar: 150x150px
+Rozmiar fizyczny: 300x300px (2x dla Retina)
+Wyświetlany jako: 150x150px
 
 ## 3. Ikona telefonu (GitHub)
 URL: ${githubUrls.mobile}
 Typ: WebP
-Rozmiar: 30x30px
+Rozmiar fizyczny: 60x60px (2x dla Retina)
+Wyświetlany jako: 30x30px
 
 ## 4. Ikona email (GitHub)
 URL: ${githubUrls.email}
 Typ: WebP
-Rozmiar: 30x30px
+Rozmiar fizyczny: 60x60px (2x dla Retina)
+Wyświetlany jako: 30x30px
 
 ## 5. Ikona WWW (GitHub)
 URL: ${githubUrls.www}
 Typ: WebP
-Rozmiar: 30x30px
+Rozmiar fizyczny: 60x60px (2x dla Retina)
+Wyświetlany jako: 30x30px
 
 ---
 
@@ -224,8 +229,10 @@ Rozmiar: 30x30px
 
 **Aktualizacja:**
 - Wszystkie grafiki (logo + ikony) przekonwertowane z SVG na WebP
+- Grafiki wyeksportowane w 2x rozdzielczości dla ekranów Retina/HiDPI
+- Lepsza ostrość i jakość na nowoczesnych ekranach
 - Lepsza kompatybilność z klientami email
-- Mniejszy rozmiar plików
+- Optymalizacja: nearLossless WebP compression
 `;
 
 fs.writeFileSync('lista-url-grafik-github.txt', urlList);
