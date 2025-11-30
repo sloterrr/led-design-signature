@@ -26,17 +26,11 @@ mobile.svg - ikonka telefonu, powiązana z telefonem:"+48 606 108 500" (Poppins 
 
 email.svg - ikonka email, powiązana z adresem:"artur.olinski@leddesign.pl" (Poppins font 7pkt)
 
-www.svg - ikonka strony internetowej, powiązana z adresem:"www.leddesign.pl" (Poppins font 7pkt) 
+www.svg - ikonka strony internetowej, powiązana z adresem:"www.leddesign.pl" (Poppins font 7pkt)
 
 
 
 Umieść grafiki na bezpłatnym serwerze, wyślij je na serwer i użyj
 
 w kodzie htmldocelowych linków do grafik, nie wysyłaj tylko stopka-artur.png ]
-
-
-
-
-
-
 
